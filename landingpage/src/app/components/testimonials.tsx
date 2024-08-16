@@ -5,7 +5,7 @@ import sullyOmar from '../assets/sullyomar.jpg';
 
 const Testimonials = () => {
   return (
-    <div className="customers-container w-full py-8 bg-white flex flex-col items-center">
+    <div className="customers-container w-full py-16 bg-white flex flex-col items-center">
       <h2 className="customers-title text-center text-gray-700 mb-12 text-sm font-semibold">
         Hear from Our Customers
       </h2>
