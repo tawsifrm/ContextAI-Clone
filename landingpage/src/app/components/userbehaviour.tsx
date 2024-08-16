@@ -10,18 +10,15 @@ const UserBehavior = () => {
         Understand user<br /> behavior in production
       </h2>
 
-      {/* Container for the vertical lines, positioned below the title */}
-      <div className="absolute top-32 bottom-0 inset-x-1/2 w-px bg-gray-300 pointer-events-none"></div> {/* Vertical line */}
+      <div className="absolute top-32 bottom-0 inset-x-1/2 w-px bg-gray-300 pointer-events-none"></div> 
       
-      {/* Row 1 */}
       <div className="relative flex items-start w-3/4 mb-8">
-        {/* Dot on the line aligned with the image */}
         <div className="absolute left-1/2 top-8 w-3.5 h-3.5 bg-gray-300 rounded-full transform -translate-x-1/2"></div>
         
         <div className="flex items-start w-1/2 pr-8">
           <Image src={codeImage} alt="Code Snippet" className="w-full h-auto" />
         </div>
-        <div className="flex flex-col justify-start w-1/2 pl-8 mt-6"> {/* Adjusted margin */}
+        <div className="flex flex-col justify-start w-1/2 pl-8 mt-6"> 
           <h3 className="text-lg font-bold">1. Ingest transcripts in less than 30 minutes</h3>
           <p className="mt-2 text-sm text-gray-700">
             Integrate using our SDKs, or send transcripts directly via the API.
@@ -34,15 +31,13 @@ const UserBehavior = () => {
         </div>
       </div>
       
-      {/* Row 2 */}
       <div className="relative flex items-start w-3/4 mb-8">
-        {/* Dot on the line aligned with the image */}
         <div className="absolute left-1/2 top-8 w-3.5 h-3.5 bg-gray-300 rounded-full transform -translate-x-1/2"></div>
 
         <div className="flex items-start w-1/2 pr-8">
           <Image src={semanticsImage} alt="Semantics" className="w-full h-auto" />
         </div>
-        <div className="flex flex-col justify-start w-1/2 pl-8 mt-6"> {/* Adjusted margin */}
+        <div className="flex flex-col justify-start w-1/2 pl-8 mt-6"> 
           <h3 className="text-lg font-bold">2. Group conversations into categories</h3>
           <p className="mt-2 text-sm text-gray-700">
             Use an LLM to group conversations into relevant categories. Context.ai suggests relevant clusters of conversations too, helping you uncover hidden behavior patterns.
@@ -50,15 +45,13 @@ const UserBehavior = () => {
         </div>
       </div>
       
-      {/* Row 3 */}
       <div className="relative flex items-start w-3/4">
-        {/* Dot on the line aligned with the image */}
         <div className="absolute left-1/2 top-8 w-3.5 h-3.5 bg-gray-300 rounded-full transform -translate-x-1/2"></div>
 
         <div className="flex items-start w-1/2 pr-8">
           <Image src={filterImage} alt="Filter Options" className="w-full h-auto" />
         </div>
-        <div className="flex flex-col justify-start w-1/2 pl-8 mt-6"> {/* Adjusted margin */}
+        <div className="flex flex-col justify-start w-1/2 pl-8 mt-6">
           <h3 className="text-lg font-bold">3. Identify and resolve poor experiences</h3>
           <p className="mt-2 text-sm text-gray-700">
             Understand why users are having good or bad experiences. Search and filter by signs of user satisfaction to understand how you can improve their experiences.
